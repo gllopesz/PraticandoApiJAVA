@@ -8,6 +8,7 @@ public class Principal {
         try {
             Endereco novoEndereco = consulta.BuscarCep();
             System.out.println(novoEndereco.formatado());
+
             GerarArquivo salva = new GerarArquivo();
             salva.salvaJson(novoEndereco);
         } catch (RuntimeException | IOException e) {

@@ -6,7 +6,7 @@ public record Endereco (String logradouro, String bairro, String localidade, Str
                 """
                 Rua: %s
                 Bairro: %s
-                Localidade: %s
+                Cidade: %s
                 Uf: %s
                 Cep: %s     
                 """.formatted(logradouro, bairro, localidade, uf, cep);
